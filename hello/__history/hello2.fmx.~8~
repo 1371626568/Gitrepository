@@ -1,0 +1,67 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 640
+  StyleLookup = 'panelstyle'
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Button1: TButton
+    StyledSettings = [Family, Size, Style]
+    Position.X = 408.000000000000000000
+    Position.Y = 352.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'exit'
+    TextSettings.FontColor = claCornflowerblue
+    TextSettings.FontColorForState.Hot = claTeal
+    TextSettings.FontColorForState.Focused = claYellowgreen
+    OnClick = Button1Click
+  end
+  object Label1: TLabel
+    StyledSettings = [Style]
+    Position.X = 56.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = #21494#26681#21451#27611#31508#34892#20070'2.0'#29256
+    TextSettings.Font.Size = 26.000000000000000000
+    TextSettings.FontColor = claRed
+    Text = 'click'
+    TabOrder = 1
+    OnClick = Label1Click
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    TextSettings.Font.Family = #21494#26681#21451#27611#31508#34892#20070'2.0'#29256
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00040000000000000003000000}
+    TextSettings.FontColor = claAqua
+    Position.X = 224.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = []
+  end
+  object click: TButton
+    Hint = #26377#19968#20010#23567#24778#21916#65281
+    Position.X = 128.000000000000000000
+    Position.Y = 376.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'click'
+    ParentShowHint = False
+    ShowHint = True
+    OnClick = clickClick
+  end
+end
